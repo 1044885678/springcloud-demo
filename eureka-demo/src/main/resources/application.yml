@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: eureka-demo
+server:
+  port: 1111
+
+# 是否注册进 Eureka
+eureka:
+  client:
+    register-with-eureka: false
+    # 是否从 Eureka 中获取信息
+    fetch-registry: false
+
